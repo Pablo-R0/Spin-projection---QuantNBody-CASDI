@@ -7,8 +7,6 @@ Version compilee et nettoyee de la pipeline. **Deux fichiers** :
 | `spin_projection.py` | Tout le code utile : extraction des determinants + analyse de spin local (`LocalSpinAnalyzer`). |
 | `Spin_projection_pipeline.ipynb` | Notebook de bout en bout : ESCASOUT en entree -> tableau d'analyse en sortie. |
 
-Environnement conda : `quant`.
-
 ## Pipeline
 
 ```
@@ -58,7 +56,7 @@ analyzer = LocalSpinAnalyzer(n_electrons=7, fragments=fragments)
 ---
 
 # Comment install QuantNBody
-
+```
 #Install conda
 #https://conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
@@ -72,4 +70,4 @@ conda install pip numba notebook pandas
 git clone https://github.com/SYalouz/QuantNBody.git
 cd QuantNBody
 python -m pip install -e .
-
+```
