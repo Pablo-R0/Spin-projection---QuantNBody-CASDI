@@ -35,7 +35,7 @@ analyzer = LocalSpinAnalyzer(
         "ligand": {"orbitals": ['110','111'],             "spins": ['singlet','triplet']},
     },
 )
-results = analyzer.analyze_file("ESCASOUT3.ms0")   # une ligne par vecteur
+results = analyzer.analyze_file("example_datas/ESCASOUT3.ms0")   # une ligne par vecteur
 print(results)
 ```
 
@@ -55,7 +55,7 @@ analyzer = LocalSpinAnalyzer(n_electrons=7, fragments=fragments)
 
 ---
 
-# Comment install QuantNBody
+# Comment installer QuantNBody
 ```
 #Install conda
 #https://conda.io/projects/conda/en/latest/user-guide/install/macos.html

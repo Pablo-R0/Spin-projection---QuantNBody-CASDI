@@ -35,7 +35,7 @@ Exemple minimal
             "ligand": {"orbitals": ['110','111'],             "spins": ['singlet','triplet']},
         },
     )
-    results = analyzer.analyze_file("ESCASOUT3.ms0")   # DataFrame: une ligne par vecteur
+    results = analyzer.analyze_file("example_datas/ESCASOUT3.ms0")   # DataFrame: une ligne par vecteur
 """
 
 import re
